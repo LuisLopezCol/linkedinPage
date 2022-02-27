@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="shortcut icon" href="/styles/IMG/linkedin.png">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/3055f91a99.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <section id="nav">
+        <div class="nav__container">
+            <img class="nav__logo" src="/styles/IMG/linkedin.png" alt="LinkedIn" />
+            <!-- <div class="nav__search__container"> -->
+            <input class="nav__search" type="search" name="" id="" placeholder="Buscar ...">
+            <!-- </div> -->
+            <div class="nav__links">
+                <ul>
+                    <li class="nav__icon__selected">
+                        <div>
+                            <span class="fas fa-home"></span>
+                            <span class="nav__icon__text">Inicio</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-user-friends"></span>
+                            <span class="nav__icon__text">Mi red</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-suitcase"></span>
+                            <span class="nav__icon__text">Empleos</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-envelope"></span>
+                            <span class="nav__icon__text">Mensajes</span>
+                            <span class="nav__badge">3</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-bell"></span>
+                            <span class="nav__icon__text">Notificaciones</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="right-border">
+                            <img class="nav__pict" src="/styles/IMG/profilePic.jpeg" alt="Profile picture" />
+                            <span class="nav__chevron">
+                                <span class="nav__icon__text">Yo</span> <span class="fas fa-caret-down"> </span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="nav__item__border">
+                        <div>
+                            <span class="fas fa-th nav__icon"></span>
+                            <span class="nav__icon__text">Productos<span class="fas fa-caret-down"> </span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-arrow-circle-o-up"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <section id="content">
+            <!-- LEFT CONTENT -->
+            <div id="content__left">
+                <aside class="card">
+                    <div id="profile-card">
+                        <div alt="profile banner" class="left__profile__banner"> </div>
+                        <div class="left__profile__info">
+                            <img class="left__profile__picture" src="/styles/IMG/profilePic.jpeg"
+                                alt="Profile picture" />
+                            <strong>Luis López</strong>
+                            <small>Full Stack Web Developer<br>en Imagine
+                                Apps</small>
+                        </div>
+                        <div class="left__profile__links">
+                            <a href="#">
+                                <span>Quié ha visto tu perfil</span>
+                                <span class="left__profile__amount">2050</span>
+                            </a>
+                            <a href="#">
+                                <span>Visualizaciones de tus publicaciones</span>
+                                <span class="left__profile__amount">452</span>
+                            </a>
+                        </div>
+                        <div class="left__profile__premium">
+                            <a href="#">
+                                <span class="left__profile__premium__title">Accede a información y herramientas
+                                    exclusivas</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" class="mercado-match" width="20" height="20"
+                                        focusable="false">
+                                        <path
+                                            d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z"
+                                            fill="#f8c77e"></path>
+                                        <path
+                                            d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z"
+                                            fill="#e7a33e"></path>
+                                    </svg>
+                                    <span class="left__profile__premium__prueba">Volver a probar Premium gratis</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="card">
+                    <section class="left__pages">
+                        <span class="left__pages__title">Mis páginas (2)</span>
+                        <div class="left__pages__content">
+                            <img src="/styles/IMG/imagne.jpeg" alt="">
+                            <span><span class="left__pages__subtitle"> Imagine Apps</span> <br> Notificaciones de
+                                la...</span>
+                            <img src="/styles/IMG/imagne.jpeg" alt="">
+                            <span><span class="left__pages__subtitle"> Imagine Desarrollo</span><br> Notificaciones de
+                                la...</span>
+                        </div>
+                    </section>
+                </aside>
+                <aside class="card">
+                    <!-- <div> -->
+                    <section class="left__groups">
+                        <header onmouseover="showProfileGroupIcon(this)" onmouseout="showProfileGroupIcon(this)">
+                            <span>Recientes</span>
+                        </header>
+                        <ul class="group-list">
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Imagine Apps Team</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Angular Force</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Colombia Developers</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Mentores SUM</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Negocios</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Emprender Colombia</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Triatletas</span>
+                            </li>
+                        </ul>
+                        <section>
+                            <span class="left__group__title">Grupos</span>
+                        </section>
+                        <ul>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Triatletas</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Imagine Apps Team</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Angular Force</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-users"></span>
+                                <span>Colombia Developers</span>
+                            </li>
+                            <li class="left__groups__seeall">
+                                <span>Ver Todo</span>
+                            </li>
+                        </ul>
+                        <section>
+                            <span class="left__group__title">Hashtags Seguidos</span>
+                        </section>
+                        <ul>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Emprender Colombia</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Mentores SUM</span>
+                            </li>
+                            <li>
+                                <span class="fas fa-hashtag"></span>
+                                <span>Negocios</span>
+                            </li>
+                            <li class="left__groups__seeall">
+                                <span>Ver Todo</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="left__groups__footer">
+                        <a href="https://www.linkedin.com/mynetwork/discover-hub/">Ver mas</a>
+                    </section>
+                </aside>
+            </div>
+            <!-- CONTENT CENTER -->
+            <div class="content__center">
+                <div class="card center__input">
+                    <div class="center__input__box">
+                        <img src="/styles/IMG/profilePic.jpeg" alt="Profile picture" />
+                        <div>
+                            <input type="text" placeholder="Crear publicación" id="userInput">
+                        </div>
+                    </div>
+                    <div class="center__input__icons">
+                        <div>
+                            <span><i class="fas fa-photo-video"></i></span>
+                            <span>Foto</span>
+                        </div>
+                        <div>
+                            <span><i class="fab fa-youtube"></i></span>
+                            <span>Video</span>
+                        </div>
+                        <div>
+                            <span><i class="fas fa-calendar-alt"></i></span>
+                            <span>Evento</span>
+                        </div>
+                        <div>
+                            <span><i class="fas fa-newspaper"></i></span>
+                            <span>Escribir articulo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="center__sort">
+                    <div class="line"></div>
+                    <span>
+                        Ordenar por:&nbsp;&nbsp; <strong class="link" onclick="sortByDate('asc')">Fecha Ascendente <i
+                                class="fa fa-chevron-down"></i>
+                            &nbsp;&nbsp; | &nbsp;&nbsp;</strong> <strong class="link" onclick="sortByDate('desc')">Fecha
+                            Descendente <i class="fa fa-chevron-up"></i></strong>
+                    </span>
+                    <div class="line"></div>
+                </div>
+                <div class="center__feed"></div>
+            </div>
+            <!-- RIGHT CENTER -->
+            <div class="content__right">
+                <aside class="card">
+                    <section class="right__add">
+                        <span class="right__add__title">Añadir a tu feed</span>
+                        <div class="right__add__content">
+                            <img src="/styles/IMG/nicolas.jpeg" alt="">
+                            <div><span class="right__add__subtitle"> Nicolas Rojas Niño</span> <br> CEO en Imagine
+                                Apps <br> <button class="link">
+                                    <a href="https://co.linkedin.com/in/nicolasimagine">
+                                        <span class="fas fa-plus"></span>
+                                        <span>Follow</span></a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="right__add__content">
+                            <img src="/styles/IMG/Santiago.jpeg" alt="">
+                            <div><span class="right__add__subtitle"> Santiago Garzon Muñoz</span><br> CTO en Imagine
+                                Apps <br> <button class="link">
+                                    <a href="https://www.linkedin.com/in/santiagogarzonm">
+                                        <span class="fas fa-plus"></span>
+                                        <span>Follow</span></a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="right__add__content__more">
+                            <a href="https://www.linkedin.com/in/luislopez0730/">Ver todas las recomendaciones <i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </section>
+                </aside>
+                <aside class="card" id="linkedin-section">
+                    <section class="right-add right__add__footer">
+                        <small>Anuncio ...</small>
+                        <a href="#">
+                            <span>Connect with talent who can get you where you want to go.</span>
+                            <div>
+                                <img src="/styles/IMG/profilePic.jpeg" alt="" />
+                                <img id="linkedin-key" src="/styles/IMG/Ted.jpeg" alt="" />
+                            </div>
+                            <strong>Luis, prueba Linkedin Learning gratus </strong>
+                            <div>
+                                <button>Probar gratis</button>
+                            </div>
+                        </a>
+                    </section>
+                </aside>
+                <footer>
+                    <ul>
+                        <li>Acerca de</li>
+                        <li>Centro de ayuda</li>
+                        <li>
+                            Privacidad y terminos <span class="fas fa-angle-down"></span>
+                        </li>
+                        <li>Publicidad</li>
+                        <li>
+                            Servicios empresariales <span class="fas fa-angle-down"></span>
+                        </li>
+                        <li>Descargar la aplicación de Linkedin</li>
+                        <li>Mas</li>
+                    </ul>
+                    <div>
+                        <strong>Linked<span>in</span></strong>
+                        <span>LinkedIn Corporation © 2019</span>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </section>
+    <script src="app.js"></script>
+    <script src="parte2.js"></script>
+</body>
+
+</html>
